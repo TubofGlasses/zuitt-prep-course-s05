@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+
+nav {
+    padding: 20px;
+    background-color: #1c1d31;
+    text-align: center;
+}
+
+.nav-link {
+    color: white;
+    font-weight: normal;
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+footer {
+    padding: 15px;
+    background-color: #1c1d31;
+    text-align: center;
+    color: white;
+}
+
+#landing-header {
+    font-size: 5em;
+    font-weight: normal;
+}
+
+#landing {
+    padding: 60px 20vw;
+    background-color: #1c1d31;
+}
+
+#landing * {
+    margin: 5px 0;
+    color: white;
+}
+
+#landing input[type="text"] {
+    background: rgba(128, 128, 128, 0.3);
+    color: white;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    border-radius: 5px;
+    outline: none;
+}
+
+#landing button {
+    background: gold;
+    color: #1c1d31;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#movies {
+    padding: 60px 20vw;
+    text-align: center;
+}
+
+.card {
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.card-img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+    border-radius: 10px;
+}
+
+.imgLinks {
+            width: 30px;
+            height: 30px;
+            margin: 5px;
+            border-radius: 50%;
+        }
+
+
+/* Font */
+
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.space-mono-regular-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.space-mono-bold-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
